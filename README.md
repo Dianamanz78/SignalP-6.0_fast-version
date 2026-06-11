@@ -1,1 +1,1 @@
-# SignalP-6.0-
+# SignalP-6.0_Fast-Version
