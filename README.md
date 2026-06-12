@@ -21,4 +21,13 @@ module lode singularity
 
 <br>
 
+Run the srun command with additional flags such as the following:
+```
+srun --pty -p dept_cpu /bin/bash
+```
+Then enter the following line into the command prompt:
+```
+singularity exec "/net/dali/home/roth/shared/signalp/signalp_fast.sif" signalp6 --fastafile input_file.fasta --organism other --output_dir path_of_output_dir --format txt --mode fast
+
+```
 **Batch Mode**
