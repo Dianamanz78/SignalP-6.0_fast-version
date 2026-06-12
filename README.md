@@ -31,3 +31,15 @@ singularity exec "/net/dali/home/roth/shared/signalp/signalp_fast.sif" signalp6 
 
 ```
 **Batch Mode**
+
+<br>
+
+-include the line in the script file
+```
+singularity exec --bind $PWD "/net/dali/home/roth/shared/signalp/signalp_fast.sif" signalp6 --fastafile input_file.fasta --organism other --output_dir path_of_output_dir --format txt --mode fast
+```
+Then submit the script to SLURM using sbatch:
+```
+sbatch script.sh
+```
+
