@@ -16,3 +16,9 @@ module lode singularity
 ```
 
 <br>
+
+**Interactive Mode**
+
+<br>
+
+**Batch Mode**
