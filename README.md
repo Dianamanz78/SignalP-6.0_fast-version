@@ -17,6 +17,15 @@ module lode singularity
 
 <br>
 
+**Flags**
+```
+-required
+- `--fastafile`, `-ff`, specifies the fasta file with the sequences to be predicted.
+To prevent invalid file paths, non-alphanumeric characters in fasta headers are replaced with "`_`" for saving the individual sequence output files.
+
+- `--output_dir`, `-od`, speicifies the directory in which to save the outputs. If it does not exist, it will be created. Note that repeated calls with the same `--output_dir` will overwrite previous prediction results.
+```
+
 **Interactive Mode**
 
 <br>
