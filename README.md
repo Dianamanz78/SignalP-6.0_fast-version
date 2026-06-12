@@ -18,6 +18,7 @@ module lode singularity
 <br>
 
 **Flags**
+
 -required:
 ```
 - `--fastafile`, `-ff`, specifies the fasta file with the sequences to be predicted.
@@ -47,6 +48,7 @@ Defaults to `fast`.
 
 - `--write_procs`, `-wp` is the integer number of parallel processes launched for writing output files. Using multiple processes significantly speeds up writing the outputs for prediction jobs with many sequences. However, due to the way multiprocessing works in Python, this leads to increased memory usage. By setting to `1`, no additional processes are started. Defaults to the number of available CPUs with `8` processes maximum.
 ```
+<br>
 
 **Interactive Mode**
 
